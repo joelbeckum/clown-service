@@ -7,7 +7,10 @@ export const Reservations = () => {
 
     const listItems = reservations.map(reservation => {
                         return `<li>
-                            Party of ${reservation.childrenAttending} for ${reservation.childName} on ${reservation.dateOfParty}
+                            Party of ${reservation.childrenAttending} for ${reservation.childName} on ${reservation.dateOfParty}  
+                            <button class="request__delete" id="request--${reservation.id}">
+                                Deny
+                            </button>    
                         </li>`
     })
 
