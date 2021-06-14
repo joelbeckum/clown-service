@@ -1,4 +1,4 @@
-import { Requests } from "./Requests.js"
+import { Reservations } from "./Reservations.js"
 import { ServiceForm } from "./ServiceForm.js"
 
 
@@ -9,9 +9,9 @@ export const ClownService = () => {
     ${ServiceForm()}
     </section>
 
-    <section class="serviceRequests">
-        <h2>Service Requests</h2>
-        ${Requests()}
+    <section class="reservations">
+        <h2>Reservations</h2>
+        ${Reservations()}
     </section>
     `
 }
