@@ -19,6 +19,15 @@
       "dateOfParty": "2021-06-18",
       "partyLength": "1",
       "id": 2
+    },
+    {
+      "parentName": "Joe",
+      "childName": "Luke",
+      "childrenAttending": "26",
+      "partyAddress": "100 Zoom St",
+      "dateOfParty": "2021-06-25",
+      "partyLength": "7",
+      "id": 3
     }
   ]
 }
